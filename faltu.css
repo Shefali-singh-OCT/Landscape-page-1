@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+   background-image: url("https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   justify-content: space-evenly;
+}
+
+#main h1{
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    font-size: 60px;
+    
+    font-family: "Another Danger - Demo";
+    color: black;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+#growth1{
+   height: 50%;
+   width: 25%;
+   background-image: url("https://images.unsplash.com/photo-1444210971048-6130cf0c46cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZyaWVuZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+   background-position: center;
+   background-size: cover;
+   transition: all ease 1s;
+}
+
+#growth2{
+    height: 50%;
+    width: 25%;
+    background-image: url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZyaWVuZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-size: cover;
+    transition: all ease 1s;
+ }
+
+ #growth3{
+    height: 50%;
+    width: 25%;
+    background-image: url("https://media.istockphoto.com/id/544355760/photo/friends-embracing-each-other.jpg?s=612x612&w=0&k=20&c=5_nk53vsFDVLSpJKLT--QtADeRSYYhwQ49goDkQjNeM=");
+    background-size: cover;
+    background-position: center;
+    transition: all ease 1s;
+ }
+
+ #growth1:hover{
+    scale: 1.3;
+ }
+
+ #growth2:hover{
+    scale: 1.3;
+ }
+
+ #growth3:hover{
+    scale: 1.3;
+ }
+
+ .progress{
+    font-family: "Bloody - Demo";
+    font-size: 35px;
+    color: whitesmoke;
+ }
+
+ #p1{
+    color: #333;
+ }
+
+ #p2{
+    color: #444;
+ }
